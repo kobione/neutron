@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Neutron Browser</title>
+    <link rel="stylesheet" href="index.css"></link>
+</head>
+<body>
+    <div class="input-bar">
+        <div class="url-input-container">
+            <input id="url-input" />
+        </div>
+        <div class="go-button-container">
+            <button id="go-button">Go</button>
+        </div>
+    </div>
+    <div id="tab-bar-div">
+        <button id="new-tab-button" data-iframeindex="0" class="tab-button active">New Tab</button>
+        <button id="create-tab-button" class="tab-button">+</button>
+    </div>
+    <iframe id="iframe-0" class="webpage-iframe active" src="new-tab.html"></iframe>
+    <script src="index.js"></script>
+</body>
+</html>
