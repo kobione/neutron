@@ -57,7 +57,7 @@ body {
     color: #fff;
 }
 
-.webpage-iframe {
+.tab-iframe {
     position: absolute;
     top: 69px;
     left: 0;
@@ -69,6 +69,6 @@ body {
     visibility: hidden;
 }
 
-.webpage-iframe.active {
+.tab-iframe.active {
     visibility: visible;
 }
