@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Neutron Browser</title>
-    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="css/main.css"></link>
 </head>
 <body>
     <div class="input-bar">
         <div class="url-input-container">
-            <input id="url-input" />
+            <input id="url-input" value="http://" />
         </div>
         <div class="go-button-container">
             <button id="go-button">Go</button>
         </div>
     </div>
     <div id="tab-bar-div">
-        <button id="new-tab-button" data-iframeindex="0" class="tab-button active">New Tab</button>
+        <button data-tabIndex="0" class="tab-button active">New Tab</button>
         <button id="create-tab-button" class="tab-button">+</button>
     </div>
-    <iframe id="iframe-0" class="webpage-iframe active" src="new-tab.html"></iframe>
-    <script src="index.js"></script>
+    <iframe data-tabIndex="0" class="tab-iframe active" src="new-tab-page.html"></iframe>
+    <script src="bundle.js"></script>
 </body>
 </html>
